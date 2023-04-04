@@ -7,9 +7,6 @@ export default (props: any) => {
         <>
             <Text style={Padrao.txtG}>Membros da Família</Text>
             {props.children}
-
-           {/* <Membro nome="Ana" sobreNome="Silva"/>
-            <Membro nome="José" sobreNome="Silva"/> */}
         </>
     )
 } 
