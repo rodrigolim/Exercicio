@@ -11,6 +11,7 @@ import UsuarioLogado from "./componentes/UsuarioLogado";
 
 import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
+import DigiteSeuNome from "./componentes/DigiteSeuNome";
 
 export default class App extends Component{
   render() {
@@ -28,9 +29,10 @@ export default class App extends Component{
         <UsuarioLogado usuario={ {nome:'teste 2'} } />
         <UsuarioLogado usuario={ {email:'teste@teste.com'} } />        
         <UsuarioLogado usuario={ {} } />
-        <UsuarioLogado usuario={ null } /> */}
-
-        <Contador valorInicial={55} />
+        <UsuarioLogado usuario={ null } /> 
+        <Contador valorInicial={55} /> */}
+        
+        <DigiteSeuNome />
 
       </View>
     );      

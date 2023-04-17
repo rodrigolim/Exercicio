@@ -12,5 +12,10 @@ export default StyleSheet.create({
     },
     txtG:{
         fontSize: 32
+    },
+    input:{
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
     }
 })
