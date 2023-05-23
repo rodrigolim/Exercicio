@@ -13,6 +13,10 @@ import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
 import DigiteSeuNome from "./componentes/DigiteSeuNome";
 
+import DimensoesFixas from "./componentes/DimensoesFixas";
+
+import Mega from "./componentes/MegaSena/Mega";
+
 export default class App extends Component{
   render() {
     return (
@@ -30,9 +34,11 @@ export default class App extends Component{
         <UsuarioLogado usuario={ {email:'teste@teste.com'} } />        
         <UsuarioLogado usuario={ {} } />
         <UsuarioLogado usuario={ null } /> 
-        <Contador valorInicial={55} /> */}
-        
-        <DigiteSeuNome />
+        <Contador valorInicial={55} />         
+        <DigiteSeuNome /> 
+        <DimensoesFixas /> */}
+
+        <Mega qtdeNumeros={7} />
 
       </View>
     );      
