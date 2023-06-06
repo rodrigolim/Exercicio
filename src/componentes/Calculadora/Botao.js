@@ -5,7 +5,7 @@ import { StyleSheet, Text, Dimensions,
 const estilo = StyleSheet.create({
     button:{
         fontSize: 41,
-        height: Dimensions.get('window').width / 4,
+        height: Dimensions.get('window').height / 7,
         width: Dimensions.get('window').width /4,
         padding: 20,
         backgroundColor: '#f0f0f0',
