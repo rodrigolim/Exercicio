@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavigationContainer } from '@react-navigation/native';
 import { MainStackNavigator } from "./componentes/Menu/StackNavigator";
+import BottomTabNavigator from "./componentes/Menu/TabNavigator";
 
 import { View, Text, StyleSheet } from "react-native";
 
@@ -22,7 +23,7 @@ export default class App extends Component {
   render() {
    return(
       <NavigationContainer>
-        <MainStackNavigator />
+        <BottomTabNavigator />
       </NavigationContainer>
     );
   }

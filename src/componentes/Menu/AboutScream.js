@@ -2,7 +2,7 @@ import React from "react";
 import {View, Text} from "react-native";
 import Padrao from "../../estilo/Padrao";
 
-const About = () => {
+const AboutScream = () => {
     return (
         <View style={Padrao.center}>
             <Text>Esta é a tela About.</Text>
@@ -10,4 +10,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutScream;
